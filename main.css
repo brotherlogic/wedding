@@ -30,5 +30,18 @@ img {
 }
 
 p {
-  text-align: center;
+  text-align: left;
+}
+
+.mapouter {
+  text-align:right;
+  height:500px;
+  width:808px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:808px;
 }

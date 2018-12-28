@@ -1,23 +1,51 @@
 h1 {
+  font-family: helvetica;
+  padding-top: 20px;
   text-align: center;
+  font-variant: all-caps;
+  text-transform: uppercase;
 }
 
 ul {
+   font-family: helvetica;
    text-align: center;
+   padding:0;
 }
 
 li {
+   font-size: 20px;
    display: inline-block;
    font-variant: small-caps;
+   padding: 10px;
+}
+
+li a {
+   padding: 10px;
+}
+
+li a:link {
+   color: black;
+   text-decoration: none;
+}
+
+li a:visited {
+   color: black;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: lightgray;
 }
 
 img {
   max-width:100%;
   height: auto;
+  text-align:center;
 }
 
 #wrapper {
-  width: 95%;
+  margin: auto;
+  width: 80%;
 }
 
 #mainbody {
@@ -25,6 +53,7 @@ img {
 }
 
 #text {
+  font-family: palatino;
   width: 50%;
   display:inline-block;
 }

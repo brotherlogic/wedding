@@ -1,5 +1,7 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
 h1 {
-  font-family: helvetica;
+  font-family: 'Inter UI', sans-serif;
   padding-top: 20px;
   text-align: center;
   font-variant: all-caps;

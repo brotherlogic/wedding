@@ -79,6 +79,17 @@ img {
   text-align:center;
 }
 
+td {
+  width: 30%;
+}
+
+td img {
+  width: 100%;
+  height-auto;
+  text-align:center;
+}
+
+
 #wrapper {
   margin: auto;
   width: 60%;

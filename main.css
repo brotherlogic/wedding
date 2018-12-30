@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'GaramondPremier';
   src: url("garamondpremier.otf") format("opentype");
+  font-display: block;
 }
 
 @font-face {

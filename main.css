@@ -1,17 +1,50 @@
-@import url('https://rsms.me/inter/inter-ui.css');
+@font-face {
+  font-family: 'GaramondPremier';
+  src: url("garamondpremier.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url("metropolis.otf") format("opentype");
+}
 
 h1 {
-  font-family: 'Inter UI', sans-serif;
+  font-family: 'GaramondPremier';
   padding-top: 20px;
   text-align: center;
-  font-variant: all-caps;
-  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+
+#menu {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#page-divider {
+  margin: auto;
+  margin-top: -3.0em;
+  margin-bottom: -1.6em;
+  font-size: 12px;
+  border-bottom-width: 2px;
+  border-bottom: 2px solid #eee;
+  text-align: center;
+  display: block;
+  width: 60%;
 }
 
 ul {
-   font-family: helvetica;
+   width: auto;
+   background-color: #fff;
+   font-family: 'Metropolis';
    text-align: center;
-   padding:0;
+   padding: 0 32px;
+   display: inline-block;
 }
 
 li {
@@ -40,15 +73,15 @@ li a:hover {
 }
 
 img {
-  max-width:100%;
-  height: auto;
+  width: 100%;
+  height-auto;
   text-align:center;
 }
 
 #wrapper {
   margin: auto;
-  width: 50%;
-  max-width: 500px;
+  width: 60%;
+  max-width: 2000px;
 }
 
 #mainbody {
@@ -56,8 +89,9 @@ img {
 }
 
 #text {
-  font-family: palatino;
-  width: 50%;
+  font-family: "GaramondPremier";
+  width: 60%;
+  font-size: 20px;
   display:inline-block;
 }
 

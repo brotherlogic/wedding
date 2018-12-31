@@ -39,6 +39,10 @@ h1 {
   width: 60%;
 }
 
+#indented {
+  margin-left:20px;
+}
+
 ul {
    width: auto;
    background-color: #fff;

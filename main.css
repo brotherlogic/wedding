@@ -120,6 +120,10 @@ p {
   text-align: left;
 }
 
+.smaller {
+    font-size: 15px;
+}
+
 .mapouter {
   text-align:right;
   height:500px;

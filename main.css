@@ -120,8 +120,8 @@ p {
   text-align: left;
 }
 
-#smaller {
-    font-size: 1px;
+span {
+    font-size: 15px;
 }
 
 .mapouter {
